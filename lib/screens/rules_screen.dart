@@ -147,7 +147,7 @@ class _RulesScreenState extends State<RulesScreen> {
             const SizedBox(height: 16.0),
             Row(
               children: [
-                SizedBox(width: 32),
+                const SizedBox(width: 32),
                 Checkbox(
                   value: showGoodPhotos,
                   onChanged: _onGoodPhotosCheckboxChanged,
@@ -207,7 +207,7 @@ class _RulesScreenState extends State<RulesScreen> {
                 )),
             Row(
               children: [
-                SizedBox(width: 32),
+                const SizedBox(width: 32),
                 Checkbox(
                   value: showBadPhotos,
                   onChanged: _onBadPhotosCheckboxChanged,
